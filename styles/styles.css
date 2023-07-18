@@ -1,64 +1,146 @@
 /* For Full Webpage */
-  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,800;1,700&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,800;1,700&display=swap');
+
+* {
     box-sizing: border-box;
     margin: 0;
     border: 0;
 }
 
+
 /* For Body */
-body{
+body {
     font-family: 'Work Sans', sans-serif;
 }
 
+
 /* Nav Section Style */
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     text-align: center;
     align-items: center;
     margin-top: 10px;
 }
-.nav-logo{
+
+.nav-logo {
     width: 50%;
     display: flex;
     justify-content: ;
-    align-items: center;   
+    align-items: center;
 }
-.nav-title{
+
+.nav-title {
     color: #0B0223;
     font-size: 2rem;
-    font-weight: 700; 
+    font-weight: 700;
 }
-.gamer{
+
+.gamer {
     color: #F948B2;
 }
-.nav-items{
+
+.nav-items {
     color: #3C354F;
     font-size: 1rem;
     font-weight: 500;
 }
-.follow-us{
 
+.follow-us {
     border-radius: 5px;
     background: rgba(11, 2, 35, 0.10);
     padding: 7px;
 }
-.nav-logo img{
+
+.nav-logo img {
     width: 50px;
     margin-right: 5px;
 }
-.nav-items a{
-    text-decoration: none;   
+
+.nav-items a {
+    text-decoration: none;
     margin-right: 10px;
 }
-.fa-youtube{
+
+.fa-youtube {
     color: red;
     margin-left: 5px;
     margin-right: 5px;
 }
 
-.fa-tiktok { 
-    color: #EA403F ;
-  
+.fa-tiktok {
+    color: #EA403F;
+}
+
+
+/* Banner Section */
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    align-items: center;
+    margin-top: 20px;
+    background-image: url('../images/Group\ 14.png');
+    background-position: left;
+    background-size: 45% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.banner-text {
+    padding-left: 100px;
+}
+
+.play {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.goat {
+    font-size: 5rem;
+    font-weight: 800;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    margin-top: 5px;
+}
+
+.condition {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+
+}
+
+.fa-regular{
+    margin-right: 7px;
+}
+.download{
+    margin-right: 9px;
+}
+.support{
+    margin-right: 9px;
+}
+
+.banner-btn {
+    display: flex;
+    margin-top: 10px;
+}
+
+.pink-btn {
+    color: #FFF;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #FF42A5;
+}
+
+.blue-btn {
+    color: #FFF;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #4EC5F7;
+    margin-left: 10px;
 }
