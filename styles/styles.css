@@ -1,0 +1,64 @@
+/* For Full Webpage */
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,800;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+/* For Body */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Nav Section Style */
+nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.nav-logo{
+    width: 50%;
+    display: flex;
+    justify-content: ;
+    align-items: center;   
+}
+.nav-title{
+    color: #0B0223;
+    font-size: 2rem;
+    font-weight: 700; 
+}
+.gamer{
+    color: #F948B2;
+}
+.nav-items{
+    color: #3C354F;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.follow-us{
+
+    border-radius: 5px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 7px;
+}
+.nav-logo img{
+    width: 50px;
+    margin-right: 5px;
+}
+.nav-items a{
+    text-decoration: none;   
+    margin-right: 10px;
+}
+.fa-youtube{
+    color: red;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.fa-tiktok { 
+    color: #EA403F ;
+  
+}
