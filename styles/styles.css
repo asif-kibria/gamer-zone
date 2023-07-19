@@ -151,12 +151,93 @@ nav {
 
 /* Funny Videos Section */
 
+.funny-videos-containter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.text-title{
+    color: #0B0223;
+font-size: 3rem;
+font-weight: 700;
+}
+.funny-videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+
+.text-info{
+    color: #534C64;
+font-size: 1rem;
+font-weight: 400;
+line-height: 30px;
+margin-top: 15px;
+}
+
+.cards {
+
+    display: flex;
+    text-align: left;
+    margin-top: 50px;
+   
+
+}
+
+.cards img {
+    width: 300px;
+    height: 400px;
+}
+
+.cards p {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 10px;
+    
+}
+.card{
+    margin-right: 10px;
+}
+.container{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.3s;
+    background-color: dimgray;
+}
+.container:hover .overlay {
+    opacity: 0.7;
+}
+.fa-regular{
+    color: white;
+    font-size: 100px;
+}
 
 
 /* Online Games Section */
 .online-games {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     text-align: left;
     align-items: center;
     background: #FFF;
@@ -332,9 +413,13 @@ nav {
     font-weight: 500;
 
 }
-.footer-container p{
+
+.footer-container p {
     margin-top: 30px;
-    color: rgba(255, 255, 255, 0.60);;
-font-size: 0.8rem;
-font-weight: 500;
+    color: rgba(255, 255, 255, 0.60);
+    ;
+    font-size: 0.8rem;
+    font-weight: 500;
 }
+
+/* End */
