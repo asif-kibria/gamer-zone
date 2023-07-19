@@ -115,7 +115,7 @@ nav {
 
 }
 
-.fa-regular {
+.fa-play {
     margin-right: 7px;
 }
 
@@ -124,7 +124,7 @@ nav {
 }
 
 .support {
-    margin-right: 9px;
+    margin-right: 8px;
 }
 
 .banner-btn {
@@ -272,6 +272,7 @@ nav {
     font-size: 3rem;
     font-weight: 700;
     line-height: 60px;
+    margin-bottom: 15px;
 }
 
 .gradient {
