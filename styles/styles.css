@@ -157,37 +157,38 @@ nav {
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.text-title{
+.text-title {
     color: #0B0223;
-font-size: 3rem;
-font-weight: 700;
+    font-size: 3rem;
+    font-weight: 700;
 }
-.funny-videos{
+
+.funny-videos {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-   
+
 }
 
-.text-info{
+.text-info {
     color: #534C64;
-font-size: 1rem;
-font-weight: 400;
-line-height: 30px;
-margin-top: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 10px;
 }
 
 .cards {
 
     display: flex;
     text-align: left;
-    margin-top: 50px;
-   
+    margin-top: 40px;
+
 
 }
 
@@ -202,15 +203,26 @@ margin-top: 15px;
     font-weight: 500;
     line-height: 30px;
     margin-top: 10px;
-    
+
 }
-.card{
+
+.card {
     margin-right: 10px;
 }
-.container{
+
+.container {
     position: relative;
 }
-.overlay{
+
+.container a {
+    text-decoration: none;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -223,13 +235,15 @@ margin-top: 15px;
     width: 100%;
     opacity: 0;
     transition: 0.3s;
-    background-color: dimgray;
+    background-color: black;
 }
+
 .container:hover .overlay {
     opacity: 0.7;
 }
-.fa-regular{
-    color: white;
+
+.fa-regular {
+    color: rgb(151, 8, 32);
     font-size: 100px;
 }
 
@@ -237,7 +251,7 @@ margin-top: 15px;
 /* Online Games Section */
 .online-games {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     text-align: left;
     align-items: center;
     background: #FFF;
@@ -256,7 +270,6 @@ margin-top: 15px;
 .play-games {
     color: #0B0223;
     font-size: 3rem;
-
     font-weight: 700;
     line-height: 60px;
 }
